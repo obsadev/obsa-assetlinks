@@ -3,9 +3,11 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.example.app",
+      "package_name": "com.obsa.app",
       "sha256_cert_fingerprints": [
-        "PUT_SHA256_FINGERPRINT_HERE"
+        "41:68:7F:63:45:93:9F:5E:78:38:F8:C4:E5:47:58:B1:3D:25:97:A4:0F:7B:25:96:76:AE:0D:30:D3:D6:97:73",
+        "46:9D:F7:A9:6A:84:C2:3F:9E:34:13:CF:BA:6F:81:9A:FF:23:14:6E:27:A4:69:D1:91:A9:3A:85:34:F0:4C:BA",
+        "17:7C:2A:F5:C8:E4:88:86:05:57:EE:45:13:55:3E:0D:E8:F9:95:E2:23:A4:99:95:74:21:BA:6B:FD:C4:EC:84"
       ]
     }
   }
