@@ -3,21 +3,18 @@
     {
       "source": "/.well-known/assetlinks.json",
       "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
+        { "key": "Content-Type", "value": "application/json" }
       ]
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/.well-known/(.*)",
-      "dest": "/.well-known/$1"
+      "source": "/.well-known/:path*",
+      "destination": "/.well-known/:path*"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/:path*",
+      "destination": "/index.html"
     }
   ]
 }
